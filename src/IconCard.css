@@ -1,0 +1,19 @@
+.bobby{
+    font-size: 2rem;
+    color: black;
+}
+
+.bobbyW{
+    font-size: 1rem;
+    color: gray;
+}
+
+.Icon__Container{
+    font-size: 4rem;
+    color: aquamarine;
+}
+.Icon__Container, .bobby, .bobbyW{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

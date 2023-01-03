@@ -1,0 +1,43 @@
+
+
+
+.About__title{
+    text-align: center;
+    font-size: 3rem;
+}
+.About__container{
+    
+    margin: 8%;
+    max-width: 100%;
+    padding: 2rem;
+    height: fit-content;
+}
+
+
+.About__section{
+    margin-top: 10%;
+   
+}
+
+.selfie{
+    float: right;
+    margin: 2rem;
+    border-radius: 80%;
+    border: solid aquamarine 4px;
+    
+    
+    
+}
+
+
+
+
+@media only screen and (max-width: 480px){
+    
+    
+    .selfie{
+        float: none;
+        margin: 2rem;
+        
+    }
+}

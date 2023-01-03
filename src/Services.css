@@ -1,0 +1,49 @@
+.Services__section{
+    margin-top: 10%;
+    
+   
+}
+
+
+.Services__title{
+    text-align: center;
+    font-size: 3rem;
+
+   
+}
+
+.Services__container{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.Services__content{
+    margin-top: 4rem;
+    padding-left: 11rem;
+    padding-right: 11rem;
+}
+
+@media screen and (max-width: 800px){
+    .Services__container{
+        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .Services__title{
+        
+        font-size: 2.5rem;
+    }
+
+    .Services__content{
+        margin-top: 4rem;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+      
+    }
+}
